@@ -8,13 +8,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class WelcomeViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func receptionButtonAction(_ sender: Any) {
+        performSegue(withIdentifier: "goPrescriptionPage", sender: nil)
+    }
+    
 }
 

@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		7546EC5A2213A5BA0065D016 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546EC592213A5BA0065D016 /* AppDelegate.swift */; };
-		7546EC5C2213A5BA0065D016 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546EC5B2213A5BA0065D016 /* ViewController.swift */; };
+		7546EC5C2213A5BA0065D016 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546EC5B2213A5BA0065D016 /* WelcomeViewController.swift */; };
 		7546EC5F2213A5BA0065D016 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7546EC5D2213A5BA0065D016 /* Main.storyboard */; };
 		7546EC612213A5BB0065D016 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7546EC602213A5BB0065D016 /* Assets.xcassets */; };
 		7546EC642213A5BB0065D016 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7546EC622213A5BB0065D016 /* LaunchScreen.storyboard */; };
+		7546EC6C2213B61C0065D016 /* PrescriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546EC6B2213B61C0065D016 /* PrescriptionViewController.swift */; };
+		7546EC6E2213BF540065D016 /* InsuranceCardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546EC6D2213BF540065D016 /* InsuranceCardViewController.swift */; };
+		7546EC7422157D770065D016 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7546EC7322157D760065D016 /* ProfileViewController.swift */; };
+		755B0CEC221BBD620030B87B /* SurveyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 755B0CEB221BBD620030B87B /* SurveyViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7546EC562213A5BA0065D016 /* ReceptionApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReceptionApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7546EC592213A5BA0065D016 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7546EC5B2213A5BA0065D016 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7546EC5B2213A5BA0065D016 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		7546EC5E2213A5BA0065D016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7546EC602213A5BB0065D016 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7546EC632213A5BB0065D016 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7546EC652213A5BB0065D016 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7546EC6B2213B61C0065D016 /* PrescriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrescriptionViewController.swift; sourceTree = "<group>"; };
+		7546EC6D2213BF540065D016 /* InsuranceCardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsuranceCardViewController.swift; sourceTree = "<group>"; };
+		7546EC7322157D760065D016 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		755B0CEB221BBD620030B87B /* SurveyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SurveyViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				7546EC592213A5BA0065D016 /* AppDelegate.swift */,
-				7546EC5B2213A5BA0065D016 /* ViewController.swift */,
+				7546EC5B2213A5BA0065D016 /* WelcomeViewController.swift */,
 				7546EC5D2213A5BA0065D016 /* Main.storyboard */,
+				7546EC6D2213BF540065D016 /* InsuranceCardViewController.swift */,
 				7546EC602213A5BB0065D016 /* Assets.xcassets */,
 				7546EC622213A5BB0065D016 /* LaunchScreen.storyboard */,
 				7546EC652213A5BB0065D016 /* Info.plist */,
+				7546EC6B2213B61C0065D016 /* PrescriptionViewController.swift */,
+				7546EC7322157D760065D016 /* ProfileViewController.swift */,
+				755B0CEB221BBD620030B87B /* SurveyViewController.swift */,
 			);
 			path = ReceptionApp;
 			sourceTree = "<group>";
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7546EC5C2213A5BA0065D016 /* ViewController.swift in Sources */,
+				7546EC5C2213A5BA0065D016 /* WelcomeViewController.swift in Sources */,
+				7546EC6C2213B61C0065D016 /* PrescriptionViewController.swift in Sources */,
+				7546EC7422157D770065D016 /* ProfileViewController.swift in Sources */,
 				7546EC5A2213A5BA0065D016 /* AppDelegate.swift in Sources */,
+				755B0CEC221BBD620030B87B /* SurveyViewController.swift in Sources */,
+				7546EC6E2213BF540065D016 /* InsuranceCardViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
